@@ -1,0 +1,21 @@
+[
+  "function estimateFees(uint16,address,bytes,bool,bytes) view returns (uint256, uint256)",
+  "function forceResumeReceive(uint16,bytes)",
+  "function getChainId() view returns (uint16)",
+  "function getConfig(uint16,uint16,address,uint256) view returns (bytes)",
+  "function getInboundNonce(uint16,bytes) view returns (uint64)",
+  "function getOutboundNonce(uint16,address) view returns (uint64)",
+  "function getReceiveLibraryAddress(address) view returns (address)",
+  "function getReceiveVersion(address) view returns (uint16)",
+  "function getSendLibraryAddress(address) view returns (address)",
+  "function getSendVersion(address) view returns (uint16)",
+  "function hasStoredPayload(uint16,bytes) view returns (bool)",
+  "function isReceivingPayload() view returns (bool)",
+  "function isSendingPayload() view returns (bool)",
+  "function receivePayload(uint16,bytes,address,uint64,uint256,bytes)",
+  "function retryPayload(uint16,bytes,bytes)",
+  "function send(uint16,bytes,bytes,address,address,bytes) payable",
+  "function setConfig(uint16,uint16,uint256,bytes)",
+  "function setReceiveVersion(uint16)",
+  "function setSendVersion(uint16)"
+]

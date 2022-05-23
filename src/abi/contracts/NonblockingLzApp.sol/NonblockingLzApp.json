@@ -1,0 +1,21 @@
+[
+  "event MessageFailed(uint16,bytes,uint64,bytes)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "event SetTrustedRemote(uint16,bytes)",
+  "function failedMessages(uint16,bytes,uint64) view returns (bytes32)",
+  "function forceResumeReceive(uint16,bytes)",
+  "function getConfig(uint16,uint16,address,uint256) view returns (bytes)",
+  "function isTrustedRemote(uint16,bytes) view returns (bool)",
+  "function lzEndpoint() view returns (address)",
+  "function lzReceive(uint16,bytes,uint64,bytes)",
+  "function nonblockingLzReceive(uint16,bytes,uint64,bytes)",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function retryMessage(uint16,bytes,uint64,bytes) payable",
+  "function setConfig(uint16,uint16,uint256,bytes)",
+  "function setReceiveVersion(uint16)",
+  "function setSendVersion(uint16)",
+  "function setTrustedRemote(uint16,bytes)",
+  "function transferOwnership(address)",
+  "function trustedRemoteLookup(uint16) view returns (bytes)"
+]

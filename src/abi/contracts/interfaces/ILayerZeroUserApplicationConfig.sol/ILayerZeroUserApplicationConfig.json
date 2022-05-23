@@ -1,0 +1,6 @@
+[
+  "function forceResumeReceive(uint16,bytes)",
+  "function setConfig(uint16,uint16,uint256,bytes)",
+  "function setReceiveVersion(uint16)",
+  "function setSendVersion(uint16)"
+]
